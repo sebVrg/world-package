@@ -1,0 +1,21 @@
+{
+  "name": "movepopup",
+  "version": "0.0.1",
+  "description": "popup component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "chai": "3.5.0",
+    "jsdom": "9.12.0"
+	},
+	  "author": "sebvrg",
+	  "license": "MIT",
+  "repository" : {
+	"type" : "git",
+	"url" : "https://github.com/sebVrg/move-popup"
+	}
+}
+
