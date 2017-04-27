@@ -110,7 +110,7 @@ class PackageModel extends AbstractSubject implements
             { 
                      foreach ($obj->keywords as $key => $value) 
                      {
-                  
+                         $foo = $key;
                         $this->keywords =$obj->keywords;
                       }
            
@@ -128,7 +128,7 @@ class PackageModel extends AbstractSubject implements
     
     private  function consumPackagist() 
     {
-
+        
         $url="https://packagist.org/packages/" . $this->package . ".json";
         $obj = $this->consum($url);
         
@@ -137,6 +137,7 @@ class PackageModel extends AbstractSubject implements
         if ($obj) {
             
             foreach ($obj->package->versions as $key => $value) {
+                $foo = $key;
                 $this->version[] = $key;
             }
         }
@@ -189,23 +190,23 @@ class PackageModel extends AbstractSubject implements
     {
         $filename= __DIR__ . "/cache/" . md5($url);
         
-//         if (file_exists($filename)) {
-//             $output = file_get_contents($filename);
+        if (file_exists($filename)) {
+            $output = file_get_contents($filename);
             
-//         } else {
+        } else {
             $code= "404";
             $output = @file_get_contents($url);
             if (isset($http_response_header)) {
                 $tab = explode(" ", $http_response_header[0]);
             $code= $tab[1];
-//             }
+             }
             
             
             
             
             
             if ($code === "200") {
-//                 file_put_contents($filename, ($ping ? $url : $output));
+                file_put_contents($filename, ($ping ? $url : $output));
             } else {
                 $ping = false;
             }
