@@ -1,6 +1,7 @@
 # Introduction
 
 [![Build Status](https://travis-ci.org/sebVrg/world-package.svg?branch=master)](https://travis-ci.org/sebVrg/world-package)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f2eada4320d64be4b310d75ebeb9d100)](https://www.codacy.com/app/sebVrg/world-package?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sebVrg/world-package&amp;utm_campaign=Badge_Grade)
 
 - WHAT'S AN API ?
 
