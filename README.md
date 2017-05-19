@@ -1,6 +1,6 @@
 # Introduction
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+https://github.com/sebVrg/world-package
 
 - WHAT'S AN API ?
 
