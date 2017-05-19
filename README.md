@@ -1,6 +1,6 @@
 # Introduction
 
-https://github.com/sebVrg/world-package
+[![Build Status](https://travis-ci.org/sebVrg/world-package.svg?branch=master)](https://travis-ci.org/sebVrg/world-package)
 
 - WHAT'S AN API ?
 
